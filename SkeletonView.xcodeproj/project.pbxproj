@@ -52,8 +52,6 @@
 		F556F65D26CD3E3600A80B83 /* SkeletonDebugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F65C26CD3E3600A80B83 /* SkeletonDebugTests.swift */; };
 		F556F67626CD458500A80B83 /* SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F556F59426CD1F3900A80B83 /* SkeletonView.framework */; platformFilter = maccatalyst; };
 		F556F67C26CD45A300A80B83 /* SkeletonDebugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F65C26CD3E3600A80B83 /* SkeletonDebugTests.swift */; };
-		F556F68026CD47CF00A80B83 /* ProcessInfo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F67F26CD47CF00A80B83 /* ProcessInfo+Extensions.swift */; };
-		F556F68126CD47CF00A80B83 /* ProcessInfo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F67F26CD47CF00A80B83 /* ProcessInfo+Extensions.swift */; };
 		F556F68326CD48F700A80B83 /* UIView+AssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F68226CD48F700A80B83 /* UIView+AssociatedObjects.swift */; };
 		F556F68426CD48F700A80B83 /* UIView+AssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F68226CD48F700A80B83 /* UIView+AssociatedObjects.swift */; };
 		F556F68726CD49F900A80B83 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F556F68626CD49F900A80B83 /* UIView+IBInspectable.swift */; };
@@ -188,7 +186,6 @@
 		F556F64F26CD2DFD00A80B83 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
 		F556F65C26CD3E3600A80B83 /* SkeletonDebugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonDebugTests.swift; sourceTree = "<group>"; };
 		F556F67126CD458500A80B83 /* SkeletonView tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkeletonView tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F556F67F26CD47CF00A80B83 /* ProcessInfo+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProcessInfo+Extensions.swift"; sourceTree = "<group>"; };
 		F556F68226CD48F700A80B83 /* UIView+AssociatedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AssociatedObjects.swift"; sourceTree = "<group>"; };
 		F556F68626CD49F900A80B83 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		F556F68926CD4D6100A80B83 /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
@@ -436,7 +433,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_31 /* Int+Extensions.swift */,
-				F556F67F26CD47CF00A80B83 /* ProcessInfo+Extensions.swift */,
 				F556F68926CD4D6100A80B83 /* Notification+Extensions.swift */,
 				F556F6AE26CE244100A80B83 /* DispatchQueue+Extensions.swift */,
 			);
@@ -846,7 +842,6 @@
 				F556F58E26CD1F3900A80B83 /* SkeletonTransitionStyle.swift in Sources */,
 				F556F6AC26CD5C4900A80B83 /* SkeletonMultilinesLayerConfig.swift in Sources */,
 				F53D731F26D3AC4000249D46 /* SkeletonTreeNode.swift in Sources */,
-				F556F68126CD47CF00A80B83 /* ProcessInfo+Extensions.swift in Sources */,
 				F556F68826CD49F900A80B83 /* UIView+IBInspectable.swift in Sources */,
 				F556F6C726CE2A2100A80B83 /* UILabel+IBInspectable.swift in Sources */,
 				F556F6DA26CE315A00A80B83 /* UICollectionView+Extensions.swift in Sources */,
@@ -929,7 +924,6 @@
 				OBJ_125 /* SubviewsSkeletonables.swift in Sources */,
 				OBJ_126 /* SkeletonTransitionStyle.swift in Sources */,
 				F556F6AB26CD5C4900A80B83 /* SkeletonMultilinesLayerConfig.swift in Sources */,
-				F556F68026CD47CF00A80B83 /* ProcessInfo+Extensions.swift in Sources */,
 				F556F68726CD49F900A80B83 /* UIView+IBInspectable.swift in Sources */,
 				F556F6C626CE2A2100A80B83 /* UILabel+IBInspectable.swift in Sources */,
 				F556F6D926CE315A00A80B83 /* UICollectionView+Extensions.swift in Sources */,
